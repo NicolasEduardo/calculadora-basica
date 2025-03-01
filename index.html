@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html>
+    <head>
+        <!--        <meta http-equiv="refresh" content="1.0" />-->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contagem</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Calculadora</h1>
+        </header>
+        <section>
+            <div id="menu1">
+                <h1>Selecione:</h1>
+                <p>
+                    <input
+                        type="button"
+                        name="somar"
+                        id="somar"
+                        value="Somar"
+                        onclick="somar()"
+                    />
+                </p>
+                <p>
+                    <input
+                        type="button"
+                        name="multiplicar"
+                        id="multiplicar"
+                        value="Multiplicar"
+                        onclick="multiplicar()"
+                    />
+                </p>
+                <p>
+                    <input
+                        type="button"
+                        name="dividir"
+                        id="dividir"
+                        value="Dividir"
+                        onclick="dividir()"
+                    />
+                </p>
+                <p>
+                    <input
+                        type="button"
+                        name="subtrair"
+                        id="subtrair"
+                        value="Subtrair"
+                        onclick="subtrair()"
+                    />
+                </p>
+                <p>
+                    <input
+                        type="button"
+                        name="porcentagem"
+                        id="porcentagem"
+                        value="Fatorial"
+                        onclick="fatorial()"
+                    />
+                </p>
+            </div>
+            <div id="menu2"></div>
+        </section>
+        <footer>
+            <p>&copy; NicolasTeste</p>
+        </footer>
+        <script src="code.js"></script>
+    </body>
+</html>
